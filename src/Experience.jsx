@@ -57,7 +57,7 @@ export default function Experience({
 
   return (
     <>
-      <OrbitControls makeDefault enabled={!selected} />
+      <OrbitControls makeDefault />
 
       <Lights />
       <Floor />
